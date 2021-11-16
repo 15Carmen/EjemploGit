@@ -6,9 +6,8 @@ public class Main {
 
         int x=9, y=8;
 
-        if(x>y){
-            x=y;
-
+        if(x<y) {
+            x = y;
         }
         System.out.println(x);
 
